@@ -1,0 +1,36 @@
+main {
+  font-family: 'Open Sanas', sans-serif;
+}
+h1 {
+  text-align: center;
+}
+#container {
+  background-color: #003049;
+  width: 90%;
+  height: 500px;
+  margin: 0 auto;
+  border: 5px solid #003049;
+  display: flex;
+  flex-direction: row; /* em linha do container */
+  /* flex-direction: column;  em colunas do container */
+  /* flex-direction: row-reverse; inverte as divs do container */
+
+  /* justify-content: flex-start; fica na esquerda do container como padrão */
+  /* justify-content: flex-end;  fica na direita do container */
+   justify-content: center;  /*fica no centro do container */
+  /* justify-content: space-between;  fica com espaços entre os elementos do container */
+  /* justify-content: space-around;  fica com espaços entre os elementos e espaço na esquerda e direita do container */
+  /* justify-content: space-evenly;  fica com espaços entre os elementos e espaço na esquerda e direita tudo por igual container */
+
+  /* flex-wrap: wrap; vai empilhando div dando continuidade nas demais do container */
+  /* flex-wrap: wrap-reverse;  vai empilhando div dando continuidade nas demais invertido do container */
+  /* flex-wrap: nowrap;  retira o empilhamento do container */
+
+  /* align-items: flex-end; */
+}
+
+#container div {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
